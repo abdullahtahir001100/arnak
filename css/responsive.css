@@ -1,0 +1,504 @@
+@media (max-width: 1025px) {
+  .banner .contain .col1 {
+    padding-right: 47px;
+  }
+
+  body .login_page {
+    min-height: 83vh;
+  }
+
+  .login_page .contain .form_areea {
+    width: 47%;
+  }
+
+  .dashboard_main .budget_inner .four_box {
+    width: 77%;
+  }
+
+  .dashboard_main .budget_inner .third_part .bold_area h5 {
+    font-size: 18px;
+  }
+
+  /* .dashboard_main .overview_inner .second_part .flex .cols {
+    width: 100%;
+    padding: 20px;
+  } */
+
+}
+
+@media (max-width: 991px) {
+  header nav ul>li {
+    padding: 0 12px;
+  }
+
+  header .toggle {
+    display: flex;
+  }
+
+  [nav].active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  [nav] {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-content: space-between;
+    flex-flow: column;
+    width: auto;
+    background: #fff;
+    margin: 0;
+    padding: 2rem 5rem;
+    border-top: 0.2rem solid #eee;
+    visibility: hidden;
+    opacity: 0;
+    overflow: auto;
+    z-index: 3;
+    height: 100%;
+  }
+
+  header [nav] ul {
+    width: 100%;
+    flex-flow: wrap;
+    margin: auto 0;
+  }
+
+  header [nav] ul li {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  header [nav] ul li a {
+    color: #000 !important;
+  }
+
+  .dash_header .contain .proIco {
+    right: 59px;
+    top: 26px;
+  }
+
+  .dash_header nav {
+    right: 0 !important;
+  }
+
+  footer .contain>.flexRow {
+    display: inline-table;
+  }
+
+  footer .contain>.flexRow>.col {
+    width: calc(100% / 2);
+    display: inline-block;
+  }
+
+  .banner .contain .col1 {
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .banner .contain .col2 {
+    display: none;
+  }
+
+  body .banner {
+    padding-bottom: 4rem;
+    padding-top: 10rem;
+  }
+
+  .key_features .contain .sec_heading {
+    width: 58%;
+  }
+
+  .key_features .contain .cols .inner {
+    flex-direction: column;
+  }
+
+  .key_features .cols .image {
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  .key_features .contain .cols .content {
+    padding-left: 0;
+  }
+
+  body .two_cols .cols {
+    width: 100%;
+  }
+
+  .about_sec .flex {
+    flex-direction: column-reverse;
+  }
+
+  .about_sec .contain .col2 {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .how_works .contain .cols {
+    width: calc(100% / 2);
+  }
+
+  .how_works .contain .sec_heading {
+    width: 59%;
+  }
+
+  .results .contain .flex {
+    flex-direction: unset;
+  }
+
+  .results .contain .flex .col1 {
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .testimonials .contain .sec_heading {
+    width: 88%;
+  }
+
+  .cta_sec .contain .col1 {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .cta_sec .contain .col2 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .sub_banner .contain .col1 {
+    width: 100%;
+  }
+
+  .client_sec .contain .col1 {
+    padding-right: 0;
+    padding-bottom: 15px;
+  }
+
+  .client_sec .contain .col2 {
+    border: none;
+  }
+
+  .client_sec .contain .inside {
+    padding-left: 0;
+  }
+
+  .client_sec .contain .inside:nth-child(2) {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .story_sec .contain .sec_heading {
+    width: 75%;
+  }
+
+  .story_sec .contain .flex {
+    flex-direction: column-reverse;
+  }
+
+  .story_sec .contain .col2 {
+    padding-left: 0;
+  }
+
+  .story_sec .contain .col2 ul::before {
+    left: 5%;
+  }
+
+  .value_features .contain .sec_heading {
+    width: 66%;
+  }
+
+  .value_features .contain .cols {
+    width: calc(100% / 2);
+  }
+
+  .choose_sec .contain .flex {
+    flex-direction: column-reverse;
+  }
+
+  .choose_sec .contain .flex .col2 {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .login_page .contain .form_areea {
+    width: 58%;
+  }
+
+  /* ======== */
+  .dashboard_main .contain .inner_body {
+    width: 90%;
+  }
+
+  .dashboard_main .contain .main_head {
+    flex-wrap: wrap;
+  }
+
+  .dashboard_main .contain .main_head .sec_heading {
+    margin-bottom: 15px;
+  }
+
+  .dashboard_main .contain .inner_body {
+    width: 100%;
+  }
+
+
+
+  .dashboard_main .contain .main_body {
+    padding: 14px;
+  }
+
+  .dashboard_main .account_inner .flex_three .cols {
+    width: calc(100% / 3);
+  }
+
+  .dashboard_main .account_inner .flex_four .cols {
+    width: calc(100% / 3);
+  }
+
+  .popup .inside {
+    width: 90% !important;
+  }
+
+  .dashboard_main .budget_inner .third_part .flex_three .cols {
+    width: calc(100% / 2);
+  }
+
+  .dashboard_main .budget_inner .four_box {
+    width: 60%;
+    padding-right: 25px;
+  }
+
+
+
+  .dashboard_main .budget_inner .two_box {
+    width: 40%;
+  }
+
+  .dashboard_main .budget_inner .two_box .cols .inner {
+    padding: 12px;
+  }
+
+  .dashboard_main .budget_inner .four_box .cols .inner {
+    padding: 12px 3px;
+  }
+
+  .dashboard_main .goals_inner .flex .cols {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .dashboard_main .income_inner .flex_three .cols {
+    width: calc(100% / 3);
+    padding: 23px 10px;
+  }
+
+  .dashboard_main .contain .main_head .sec_heading {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .dashboard_main .overview_inner .second_part .flex .cols {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 769px) {}
+
+@media (max-width: 512px) {
+  body section {
+    padding: 4rem 0;
+  }
+
+  footer .contain>.flexRow>.col {
+    width: 100%;
+  }
+
+  .value_features .contain .sec_heading {
+    width: 100%;
+  }
+
+  .value_features .contain .cols {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .testimonials .contain .sec_heading {
+    width: 100%;
+  }
+
+  .cta_sec .contain .col2 .webBtn {
+    width: 100%;
+  }
+
+  .story_sec .contain .block {
+    padding: 40px 18px;
+  }
+
+  .story_sec .contain .col2 ul::before {
+    left: 10%;
+    top: 8px;
+    height: 89%;
+  }
+
+  .key_features .contain .sec_heading {
+    width: 100%;
+  }
+
+  .four_cols .contain .cols {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .how_works .contain .sec_heading {
+    width: 100%;
+  }
+
+  .login_page .contain .form_areea {
+    width: 100%;
+  }
+
+  .dashboard_main .account_inner .flex_three .cols {
+    width: 100%;
+  }
+
+  .dashboard_main .account_inner .flex_four .cols {
+    width: 100%;
+  }
+
+  .popup .inside {
+    width: 100% !important;
+  }
+
+  .account_history .contain .header_area {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .dashboard_main .budget_inner .four_box .cols {
+    width: calc(100% / 2);
+  }
+
+  .dashboard_main .budget_inner .third_part .flex_three .cols {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .dashboard_main .goals_inner .progressBar {
+    flex-wrap: wrap;
+  }
+
+  .dashboard_main .goals_inner .progressBar .bar {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .dashboard_main .goals_inner .progressBar .progress-details {
+    width: 100%;
+    border-left: none;
+    padding-left: 0;
+    margin-top: 21px;
+  }
+
+  .dashboard_main .goals_inner .progressBar .progress-details ul {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .dashboard_main .goals_inner .progressBar ul li {
+    width: calc(100% / 2);
+  }
+
+  .dashboard_main .income_inner .flex_three .cols {
+    width: 100%;
+    padding: 8px 0px;
+  }
+
+  .dashboard_main .income_inner .nav-tabs li a {
+    margin-right: 34px;
+  }
+
+  .dashboard_main .contain .inner_body .cols {
+    width: 100%;
+  }
+
+  .dashboard_main .income_inner .flex_three .cols .inner {
+    padding: 11px;
+  }
+
+  .popup .inside {
+    padding: 40px 22px !important;
+  }
+
+  .dashboard_main .account_inner .sec_area {
+    margin-top: 10px;
+  }
+
+  .account_inner .flex_three {
+    margin-top: 6px !important;
+  }
+
+  .dashboard_main .income_inner {
+    margin-top: 25px;
+  }
+
+  .dashboard_main .budget_inner .first_part {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .dashboard_main .budget_inner .two_box {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .dashboard_main .budget_inner .four_box {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .dashboard_main .expense_inner .two_box {
+    margin-top: 23px;
+  }
+
+  .overview_inner .mobile_padding {
+    padding-bottom: 51px !important;
+  }
+
+  .dashboard_main .overview_inner .hisogram {
+    margin-top: 23px;
+  }
+
+  .dashboard_main .overview_inner .inner_body {
+    margin-top: 15px;
+  }
+
+  .overview_inner .chart-container .mobile_margin {
+    margin-top: 0;
+  }
+
+  .overview_inner .second_part .flex .col2 {
+    padding-top: 0 !important;
+  }
+
+  .dashboard_main .overview_inner {
+    margin-top: 5px !important;
+  }
+
+  .dashboard_main .expenses .chart-container .img {
+    width: 100%;
+    height: 167px;
+  }
+
+  .dashboard_main #pieChart1 {
+    height: 192px !important;
+  }
+
+}
+
+@media (max-width: 393px) {}
